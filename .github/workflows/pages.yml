@@ -3,9 +3,6 @@ name: Deploy project graph to Pages
 on:
   push:
     branches: [main]
-    paths:
-      - "graph/**"
-      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
